@@ -57,6 +57,8 @@ public class DetailActivity extends AppCompatActivity {
             ImageView imageView = (ImageView) this.findViewById(
                     R.id.image_view_candy);
             Picasso.with(this).load(mCandyImageUrl).into(imageView);
+            //Picasso.get().load(mCandyImageUrl).into(imageView);
+
         }
     }
 
